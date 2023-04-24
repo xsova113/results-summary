@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'hanken-grotesk': ['Hanken Grotesk']
+    }
   },
   plugins: [],
 }

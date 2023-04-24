@@ -8,16 +8,20 @@ const Summary = () => {
             flex
             flex-col
             bg-white
-            w-[350px]
-            h-[480px]
-            text-center
+            sm:w-[350px]
+            sm:h-[480px]
             rounded-2xl
-            py-8
-            shadow-2xl
-            shadow-blue-400
-            -ml-6
-            items-start
-            pl-14'
+            pt-10
+            pb-6
+            sm:py-8
+            sm:shadow-2xl
+          sm:shadow-blue-400
+            sm:-ml-6
+            sm:mt-0
+            -mt-6
+            sm:items-start
+            sm:pl-14
+            items-center'
     >
       <h1 className='
                 font-semibold
@@ -34,14 +38,16 @@ const Summary = () => {
       </div>
       <button
         className='
-            bg-gradient-to-b
-            from-blue-600
-            to-violet-700
+            sm:bg-gradient-to-b
+          from-blue-600
+          to-violet-700
+            bg-[#303b59]
             w-[250px]
             py-3
             mt-3
             rounded-full
-            text-white'
+            text-white
+            hanken-grotesk'
       >
         Continue
       </button>

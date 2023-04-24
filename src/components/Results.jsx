@@ -8,14 +8,14 @@ const Results = () => {
             bg-gradient-to-tr
             from-blue-600
             to-violet-800
-            w-[350px]
-            h-[480px]
+            sm:w-[350px]
+            sm:h-[480px]
             text-center
             text-white
             rounded-2xl
             py-8
-            shadow-[0_30px_45px_-15px]
-            shadow-blue-400
+            sm:shadow-[0_30px_45px_-15px]
+            sm:shadow-blue-400
             z-10
             gap-5'
         >
